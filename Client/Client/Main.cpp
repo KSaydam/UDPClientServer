@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 	return a.exec();
 }
 
-/*Oncellikle bu gorevde karsilastigim bir takim durumlardan bahsetmek istiyorum. UDP protokolunun POSIX API kullanilarak gelistirmesi ifadesi
+/*Bu gorevde karsilastigim bir takim durumlardan bahsetmek istiyorum. UDP protokolunun POSIX API kullanilarak gelistirmesi ifadesi
   ve iki yazlimin da windows da calisacak olmasi biraz celisiyor gibi geldi. POSIX socket API, bildigim kadariyla linux icin gelisitrilmis 
   <sys/socket.h> arayuzunde bulunmaktadir. Dolayisiyla bu yazilimin cross platform olmasi gerektiginin dusundum, cmake ile derlenmesi de buna bir 
   neden sayilabilir. POSIX API kullanmak icin linux environmentini windows uzerinde emule edecegimi dusundum CyGwin kullanip yapmayi denedim. Ancak 
